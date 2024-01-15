@@ -5,6 +5,7 @@ body {
     font-family: "Mulish", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
+    
 }
 
 /* navigation sector */
@@ -13,7 +14,6 @@ body {
     justify-content: space-between;
     align-items: center;
     margin: 0px 40px;
-
 }
 .nav-title::before{
     content:" ";
@@ -119,6 +119,36 @@ body {
     float:left;
 }
 
+/* third sector */
+
+.section-3-infos{
+    display:flex;
+    gap:90px;
+    justify-content:center;
+    align-items: center;
+    width:1350px;
+    margin:80px auto;
+    vertical-align:text-top;
+}
+.section-3-des{
+    width:680px;
+    margin-bottom:100px ;
+}
+.section-3-des h1{
+    font-size:3rem;
+    font-weight: 800;
+    margin-top:0px;
+}
+.section-3-des li{
+    margin-bottom: 25px;
+}
+
+.section-3-des p{
+    margin-top:0px;
+}
+.section-3-des button{
+    margin-top:0px;
+}
 /* responsive sector */
 
 @media screen and (max-width:600px){
@@ -160,5 +190,5 @@ body {
         font-size:1.2rem;
     }
     /* section-3 */
-    
+
 }
