@@ -12,7 +12,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0px 100px;
+    margin: 0px 40px;
 
 }
 .nav-title::before{
@@ -32,8 +32,16 @@ body {
     display: flex;
     gap: 20px;
 }
+.nav a{
+    text-decoration: none;
+    color:black;
+    
+}
 .nav li {
     list-style: none;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
 }
 .nav-title{
     font-size: 2.2rem;
@@ -42,18 +50,115 @@ body {
 .travel-color{
     color: #FF5400
 }
-.home-color{
-    color: #FF5400;
+/* second sector */
+.section-2{
+    display: flex;
+    width:1350px;
+    height:600px;
+    background:linear-gradient(rgba(0,0,0,0.8),rgba(103, 101, 101, 0.5)),url('B9A2-Hero-Travel-main/Images/Group\ 13\ \(1\)\ \(1\).png');
+    background-size: cover;
+    margin: auto;
+    border-radius: 16px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:40px;
+}
+.section-2-infos{
+    margin-bottom: 50px;
+    text-align: center;
+    max-width:600px;
+    color:white;
+}
+.section-2-infos p{
+    color:#FFF;
+    font-weight: 100;
+}
+.section-2-title{
+    color:white;
+    font-size: 3rem;
 }
 
+.section-2-inputs{
+    display: flex;
+    background:rgba(253, 253, 253, 0.2);
+    gap:20px;
+    padding: 15px;
+    border-radius: 8px;
+}
+.input2{
+    background-color: aliceblue;
+    padding: 12px 10px;
+    margin: 0px 5px;
+    border-radius: 10px;
+    border:none;
+    width: 120px;
+}
+.button2{
+    background-color: #FF5400;
+    color:white;
+    border: none;
+    text-align: center;
+    font-size: 1.2rem ;
+    border-radius: 10px;
+    padding: 10px 12px 13px 12px;
+}
+.button2:hover{
+    cursor:pointer;
+    opacity:0.7;
+}
+.button2::before{
+    content:" ";
+    background: url('B9A2-Hero-Travel-main/Images/icons8-search-50.png');
+    width: 20px;
+    height:20px;
+    margin-right:10px;
+    margin-left: 0px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    float:left;
+}
 
 /* responsive sector */
 
 @media screen and (max-width:600px){
+    /* navigation bar */
     .nav ul{
         display:none;
     }
+    .nav-title{
+        font-size: 1.5rem;
+        margin-right: 50px;
+    }
     .nav img{
         display:initial;
+        margin-left:30px;
     }
+    /* section-2 */
+    .section-2-inputs{
+        flex-direction: column;
+        width:270px;
+        margin-bottom: 50px;
+
+    }
+    .section-2{
+        flex-direction: column;
+        width:350px;
+        height:500px;
+    }
+    .section-2-title{
+        color:white;
+        font-size:1.5rem;
+        
+    }
+    .section-2-infos{
+        margin:0px;
+        width:300px;
+    }
+    .input2{
+        width:240px;
+        font-size:1.2rem;
+    }
+    /* section-3 */
+    
 }
