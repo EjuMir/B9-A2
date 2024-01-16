@@ -261,6 +261,8 @@ body {
 /* 5th sector */
 .section-5-container{
     margin: auto;
+    align-items: center;
+    
 }
 
 .section-5-info {
@@ -284,10 +286,11 @@ body {
     width: 1400px;
     margin: auto;
     display: grid;
-    align-items: center;
+    align-items: stretch;
     grid-template-columns: 300px 300px 300px 300px;
     grid-template-rows: 340px 340px;
     justify-content: center;
+    align-content: center;
     gap: 40px;
 }
 
@@ -356,6 +359,7 @@ body {
     gap:40px;
     margin-top:80px;
     margin-bottom: 80px;
+   
 }
 .input-field{
     display:flex;
@@ -593,7 +597,7 @@ body {
     }
     .section-5-info{
         width: 350px;
-        margin: 180px auto 220px auto;
+        margin: 180px auto 10px auto;
     }
     .section-5-info h2{
         font-size: 2rem;
@@ -604,7 +608,7 @@ body {
     }
     .grid2{
         margin: auto;
-        width:400px;
+        width:320px;
         grid-template-columns: repeat(1, 350px);
         grid-template-rows: 50px 50px 50px;
         row-gap: 360px;
@@ -635,10 +639,11 @@ body {
    
     .section-8{
         flex-direction: column;
+        gap:10px;
     }
     .form{
-        margin-top: 200px;
-        width:250px;
+        margin-top: 320px;
+        width:200px;
     }
    .input3{
         padding:10px 50px;
@@ -652,24 +657,30 @@ body {
         align-items: center;
    }
    .section-8-img img{
-        width:380px;
+        width:320px;
+
    }
    .rectangle8{
         transform: rotate(-25deg);
-        top:48%;
-        left:40.5%;
-        padding:15px 10px;
+        top:49%;
+        left:34%;
+        padding:5px 5px;
+        font-size: 1rem;
    }
   /* footer */
+  .footer-logo{
+    text-align: center;
+  }
   .footer-class{
     width:400px; 
   }
   .end-des{
     width:340px;
     margin: auto;
+    text-align: center;
   }
   .end{
-    font-size: 2.2rem;
-    margin-right:0px;
+    font-size: 2rem;
+    padding-right: 10px;
   }
 }
