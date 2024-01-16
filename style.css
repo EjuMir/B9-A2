@@ -132,22 +132,42 @@ body {
 }
 .section-3-des{
     width:680px;
-    margin-bottom:100px ;
+    margin-bottom:0px ;
 }
 .section-3-des h1{
     font-size:3rem;
     font-weight: 800;
-    margin-top:0px;
+    margin:0px 0px 50px 0px;
+
 }
 .section-3-des li{
     margin-bottom: 25px;
+    color:rgba(19, 19, 24, 0.70);
+    font-weight: 400;
+    font-size: 1rem;
 }
 
 .section-3-des p{
     margin-top:0px;
+    margin-bottom: 45px;
+    color:rgba(19, 19, 24, 0.70);
 }
 .section-3-des button{
     margin-top:0px;
+}
+.button3{
+    background-color: #FF5400;
+    color:white;
+    border: none;
+    text-align: center;
+    font-size: 1.2rem ;
+    border-radius: 10px;
+    padding: 10px 12px 13px 12px;
+   
+}
+.button3:hover{
+    cursor:pointer;
+    opacity:0.7;
 }
 /* responsive sector */
 
@@ -175,6 +195,7 @@ body {
         flex-direction: column;
         width:350px;
         height:500px;
+    
     }
     .section-2-title{
         color:white;
@@ -190,5 +211,23 @@ body {
         font-size:1.2rem;
     }
     /* section-3 */
-
+    .section-3-infos{
+        flex-direction: column;
+        width:350px;
+        margin-top: 40px;
+        gap:0px;
+    }
+    .section-3-des{
+        width:350px;
+        height:700px;
+    }
+    .section-3-des h1{
+        font-size: 2rem;
+        margin-bottom:20px;
+    }
+    .section-3-img img{
+        width: 350px;
+        height: 400px;
+    }
+   
 }
