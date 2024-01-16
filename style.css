@@ -534,6 +534,17 @@ body {
     font-size:1.3rem;
     margin: auto;
 }
+/* bonus */
+.review{
+    display:flex;
+    justify-content:center;
+    gap:80px;
+}
+.review1{
+    background-color:rgba(rgb(212, 165, 165),0.5);
+    height: 100px;
+    width: 150px;
+}
 /* responsive sector */
 
 @media screen and (max-width:600px) {
@@ -768,5 +779,11 @@ body {
   .end{
     font-size: 2rem;
     padding-right: 10px;
+  }
+  .review{
+    flex-direction: column;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
   }
 }
